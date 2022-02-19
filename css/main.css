@@ -712,7 +712,7 @@ body.light-theme {
 }
 
 /* For medium devices */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 326px) {
   .nav__menu {
     width: 328px;
     left: 0;
@@ -726,6 +726,11 @@ body.light-theme {
   .about__description {
     padding: 0 5rem;
   }
+  
+  .home__img {
+    width: 200px;
+  }
+  
   .skills__container {
     justify-content: center;
   }
